@@ -63,7 +63,7 @@ function drawPlayer() {
     // Espera a que la imagen cargue para evitar errores de renderizado
     ctx.drawImage(playerImage, playerPosition.x, playerPosition.y, playerWidth, playerHeight);
     
-    // También se podría pre-cargar la imagen para evitar tener que cargarla cada frame.
+  
 }
 
 function checkCollision(obj1, obj2) {
