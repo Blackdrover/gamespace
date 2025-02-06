@@ -1,0 +1,35 @@
+#myCanvas{
+    border:1px solid black;
+    background-image: url("assets/background.gif");
+    background-position: cover;
+    background-repeat: repeat;
+    background-color: white;
+    background-clip: initial;
+    animation: slide 5s linear infinite;
+    box-shadow: 0 0 30px 15px rgba(0, 0, 0,0.7);
+}
+
+body{
+    background-color:#f5f5dc;
+    font-family: 'VT323', monospace;
+}
+#content{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+#instruction{
+    margin-top:100px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Definición de la animación */
+@keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 100%;
+    }
+  }
